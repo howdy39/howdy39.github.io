@@ -1,57 +1,13 @@
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+* {
+  margin: 0;
+  text-decoration: none;
 }
-.header-image {
-  background-image: -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.9)
-    ),
-    url("../images/DSC00204.JPG");
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
-    url("../images/DSC00204.JPG");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
-    url("../images/DSC00204.JPG");
-}
-.is-outlined {
-  background-color: transparent;
-  color: #fff;
-}
-.hero-cta {
-  padding: 30px 0;
-}
-.panel-block.section p {
-  font-size: 17px;
-  line-height: 1.4;
-  color: #95a5a6;
-}
-.section.main {
-  background-color: #f0f0f0;
-}
-.icon-block {
-  font-size: 5em;
+figcaption {
+  font-size: 0.8em;
 }
 
-.hatena {
-  fill: rgba(255, 255, 255, 0.5);
-}
-.hatena:hover {
-  fill: white;
-}
-
-.profile-image {
-  border-radius: 50%;
-  width: 200px;
-}
 .panel-image {
   height: 120px;
-}
-
-.title-section {
-  margin-bottom: 35px;
-}
-.title-section:last-child {
-  margin-bottom: 0;
 }
 
 .delighter.right {
@@ -62,4 +18,141 @@ body {
 .delighter.right.started {
   transform: none;
   opacity: 1;
+}
+
+.delighter.left {
+  transform: translate(100%);
+  opacity: 0;
+  transition: all 0.75s ease-out;
+}
+.delighter.left.started {
+  transform: none;
+  opacity: 1;
+}
+.delighter li {
+  opacity: 0;
+  transform: translatey(400%);
+  transition: all 0.7s ease-out;
+}
+.delighter.started li {
+  opacity: 1;
+  transform: none;
+}
+.delighter.started li:nth-child(1) {
+  transition: all 0.7s ease-out 0.1s;
+}
+.delighter.started li:nth-child(2) {
+  transition: all 0.7s ease-out 0.3s;
+}
+.delighter.started li:nth-child(3) {
+  transition: all 0.7s ease-out 0.5s;
+}
+.delighter.started li:nth-child(4) {
+  transition: all 0.7s ease-out 0.7s;
+}
+.delighter.started li:nth-child(5) {
+  transition: all 0.7s ease-out 0.9s;
+}
+.delighter.started li:nth-child(6) {
+  transition: all 0.7s ease-out 1.1s;
+}
+.delighter.started li:nth-child(7) {
+  transition: all 0.7s ease-out 1.3s;
+}
+.delighter.started li:nth-child(8) {
+  transition: all 0.7s ease-out 1.5s;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-row-gap: 60px;
+  font-family: "Noto Sans Japanese", sans-serif;
+  font-size: 32px;
+}
+.post > section {
+  min-height: 100vh;
+  padding: 60px;
+}
+
+/* 自己紹介 */
+.post-introduction {
+  display: grid;
+  grid-row-gap: 20px;
+  background-color: deepskyblue;
+  color: white;
+}
+.post-introduction a {
+  color: white;
+  text-decoration: underline;
+}
+
+.post-profile-image {
+  border-radius: 50%;
+  width: 150px;
+}
+
+/* SNSメニュー */
+.post-sns {
+}
+.post-sns ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.post-sns li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.post-sns a {
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+
+/* Career */
+.post-career,
+.post-career a {
+  color: grey;
+}
+
+/* Web */
+.post-web,
+.post-web a {
+  background-color: #0aba58;
+  color: white;
+}
+
+/* Chrome Extension */
+.post-chrome-extension,
+.post-chrome-extension a {
+  color: grey;
+}
+
+/* GAS, App Maker */
+.post-gas-appmaker,
+.post-gas-appmaker a {
+  background-color: #ec484d;
+  color: white;
+}
+
+/* G Suite */
+.post-g-suite,
+.post-g-suite a {
+  color: grey;
+}
+
+/* sincerely */
+section.post-sincerely {
+  min-height: 20vh;
+  background-color: deepskyblue;
+  color: white;
 }
