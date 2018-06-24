@@ -156,3 +156,22 @@ section.post-sincerely {
   background-color: deepskyblue;
   color: white;
 }
+
+@media (max-width: 767px) {
+  figure {
+    text-align: center;
+  }
+  .post {
+    grid-template-columns: none;
+    grid-template-rows: none;
+    grid-row-gap: 20px;
+    font-size: 14.4px;
+  }
+  .post > section {
+    min-height: 100vh;
+    padding: 20px;
+  }
+  .post-sns {
+    text-align: center;
+  }
+}
