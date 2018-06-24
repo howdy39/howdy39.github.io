@@ -68,7 +68,6 @@ figcaption {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-row-gap: 60px;
-  font-family: "Noto Sans Japanese", sans-serif;
   font-size: 32px;
 }
 .post > section {
@@ -82,6 +81,7 @@ figcaption {
   grid-row-gap: 20px;
   background-color: deepskyblue;
   color: white;
+  font-family: futura, sans-serif;
 }
 .post-introduction a {
   color: white;
@@ -165,7 +165,7 @@ section.post-sincerely {
     grid-template-columns: none;
     grid-template-rows: none;
     grid-row-gap: 20px;
-    font-size: 14.4px;
+    font-size: 18px;
   }
   .post > section {
     min-height: 100vh;
