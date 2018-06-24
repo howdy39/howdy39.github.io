@@ -5,7 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp"
+    "lint": "eslint *.js --fix",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
@@ -18,7 +29,11 @@
   },
   "homepage": "https://github.com/howdy39/howdy39.github.io#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.6",
-    "gulp": "^3.9.1"
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "0.14.3",
+    "lint-staged": "7.1.3",
+    "prettier": "1.13.5"
   }
 }
