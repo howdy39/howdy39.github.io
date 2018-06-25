@@ -75,6 +75,10 @@ figcaption {
   padding: 60px;
 }
 
+.post > section > ul > li {
+  margin-bottom: 10px;
+}
+
 /* 自己紹介 */
 .post-introduction {
   display: grid;
