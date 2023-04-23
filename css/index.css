@@ -141,9 +141,9 @@ figcaption {
   color: grey;
 }
 
-/* GAS, App Maker */
-.post-gas-appmaker,
-.post-gas-appmaker a {
+/* GAS */
+.post-gas,
+.post-gas a {
   background-color: #ec484d;
   color: white;
 }
