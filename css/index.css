@@ -117,18 +117,17 @@ figcaption {
 .post-sns li {
   display: inline-block;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 .post-sns a {
-  font-size: 1.5em;
+  font-size: 0.55em;
   color: #fff;
   text-decoration: none;
   text-align: center;
   border: 1px solid #fff;
-  border-radius: 50%;
+  border-radius: 999px;
   display: block;
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
+  padding: 0.6em 1.2em;
 }
 
 /* Career */
