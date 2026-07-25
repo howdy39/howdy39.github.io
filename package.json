@@ -30,7 +30,7 @@
   "homepage": "https://github.com/howdy39/howdy39.github.io#readme",
   "devDependencies": {
     "eslint": "^10.0.0",
-    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-prettier": "^10.0.0",
     "eslint-plugin-prettier": "^2.6.0",
     "husky": "0.14.3",
     "lint-staged": "17.2.0",
