@@ -2,6 +2,12 @@
   margin: 0;
   text-decoration: none;
 }
+html {
+  color-scheme: light;
+}
+body {
+  background-color: white;
+}
 figcaption {
   font-size: 0.8em;
 }
