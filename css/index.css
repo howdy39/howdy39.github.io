@@ -150,17 +150,24 @@ figcaption {
   color: grey;
 }
 
+/* Notion */
+.post-notion,
+.post-notion a {
+  background-color: #f5a623;
+  color: white;
+}
+
 /* GAS */
 .post-gas,
 .post-gas a {
-  background-color: #ec484d;
-  color: white;
+  color: grey;
 }
 
 /* G Suite */
 .post-g-suite,
 .post-g-suite a {
-  color: grey;
+  background-color: #ec484d;
+  color: white;
 }
 
 /* sincerely */
