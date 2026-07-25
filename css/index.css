@@ -144,22 +144,22 @@ figcaption {
   color: white;
 }
 
+/* Organization */
+.post-organization,
+.post-organization a {
+  color: grey;
+}
+
 /* GAS */
 .post-gas,
 .post-gas a {
-  color: grey;
+  background-color: #ec484d;
+  color: white;
 }
 
 /* G Suite */
 .post-g-suite,
 .post-g-suite a {
-  background-color: #ec484d;
-  color: white;
-}
-
-/* Organization */
-.post-organization,
-.post-organization a {
   color: grey;
 }
 
