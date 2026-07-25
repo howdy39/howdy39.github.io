@@ -141,22 +141,22 @@ figcaption {
   color: white;
 }
 
-/* Chrome Extension */
-.post-chrome-extension,
-.post-chrome-extension a {
-  color: grey;
-}
-
 /* GAS */
 .post-gas,
 .post-gas a {
-  background-color: #ec484d;
-  color: white;
+  color: grey;
 }
 
 /* G Suite */
 .post-g-suite,
 .post-g-suite a {
+  background-color: #ec484d;
+  color: white;
+}
+
+/* Organization */
+.post-organization,
+.post-organization a {
   color: grey;
 }
 
