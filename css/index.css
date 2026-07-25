@@ -68,6 +68,9 @@ figcaption {
 .delighter.started li:nth-child(8) {
   transition: all 0.7s ease-out 1.5s;
 }
+.delighter.started li:nth-child(9) {
+  transition: all 0.7s ease-out 1.7s;
+}
 
 .post {
   display: grid;
